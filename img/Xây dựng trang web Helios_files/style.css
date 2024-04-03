@@ -1,0 +1,53 @@
+body{
+    margin:0;
+}
+.boxtop{
+    float: left;
+    width: 100%;
+    background-color:black ;
+    height: 50px;
+}
+.boxmenu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    
+}
+article{
+    float: left;
+    width: 100%;
+    min-height: 500px;
+    background-color:black;
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: black ;
+    height: 150px;
+}
+.boxcenter{
+    width: 95%;
+    margin: auto;
+}
+.boxtopleft{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.boxtopright{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+}
+.boxtopright a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.boxcente a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
