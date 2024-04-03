@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+.containerfull{
+    float: left;
+    width: 100%;
+    
+    
+}
+
+.containerfull img,
+.box25 img,
+.box50 img {
+    width: 100%;   
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.container  .box1{
+    color: white;
+    text-align: center;
+}
+.box25 {
+    width: calc(25% - 15px);
+    float: left;
+}
+section{
+    margin: 30px 0px;
+}
+.mr15{
+ margin-right: 15px;
+}
+.box50 {
+    width: calc(50% - 15px);
+    float: left;
+}
+.pad10{
+    padding: 10px 0px;
+}
+.banernhan{
+    float: left;
+    width: 60%;
+
+}
+
