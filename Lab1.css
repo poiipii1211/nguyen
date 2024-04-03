@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.row{
+    float:left;
+    width: 100%;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+    margin: 10px 0px;
+}
+.menu{
+    float: left;
+    width: 80%;
+    padding: 10px 0px;
+}
+.menu ul li{
+    float: right;
+    list-style: none;
+    padding: 5px 20px; 
+    margin: 0px 20px;
+    
+}
+.menu ul li a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+.menu i{
+    float: right;
+    display: none;
+    margin: 10px ;
+}
+.menu ul{
+    display: block;
+}
+/* .baner{
+    background-image: url('../img/anhbia.webp'); 
+    background-size: 100%;
+    height: 500px;
+} */
+section{
+    padding: 70px 0px;
+}
+.logo img,
+.baner img,
+.box25 img{
+    width: 100%;
+}
+.box25{
+    width: calc(25% - 15px);
+    float:left
+}
+h3{
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.mr15{
+    margin-right: 15px;
+}
+@media only screen and (min-width: 480px) {
+    .box25,
+    .container {
+        width: 100%;
+    }
+    .logo{
+       width: 20%; 
+    }
+}
+
+@media only screen and (min-width: 1180px) {
+    /* .logo,
+    .menu, */
+    .box25,
+    .container {
+        width: 100%;
+    }
+    .box25{
+        width: calc(25% - 15px);
+    }
+    .logo{
+        width: 20%; 
+       
+     }
+    
+    
+}
+
+
+@media only screen and (max-width: 1000px){
+    .menu i{
+        display: block;
+    }
+    .menu ul{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top:60px;
+        background-color: rgba(0, 0, 0, 0.812); 
+    }
+    .menu ul li{
+        width: 100%;   
+     }
+    
+    .menu ul{
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .box25,
+    .container {
+        width: 100%;
+    }
+    .logo{
+       width: 20%; 
+    }
+}
+
+
+
